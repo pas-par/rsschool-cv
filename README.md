@@ -1,1 +1,1 @@
-https://github.com/pas-par/rsschool-cv/blob/gh-pages/cv.md
+https://pas-par.github.io/rsschool-cv/cv#contacts

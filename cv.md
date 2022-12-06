@@ -4,11 +4,11 @@
 * Github: [pas-par](https://github.com/pas-par)
 * telegram: [@pparubski](https://t.me/pparubski)
 * email: pparubski@gmail.com
-******
+****
 ### About Me
 
 I can't say a lot of about myself. My core strengths are stress resistance and a lot of free time, also i have goal, goal to learn front-end development.
-*****
+****
 ### Skills
 
 * HTML
@@ -16,7 +16,7 @@ I can't say a lot of about myself. My core strengths are stress resistance and a
 * JavaScript (beginner)
 * Git
 * Figma
-*******
+****
 ### Code example 
 ```
 function cnslsum (x, a){
@@ -33,7 +33,7 @@ cnslsumm(5, 2)
 * [CSS для начинающих](https://code-basics.com/ru/languages/css)
 * [rs.school - js-stage0](https://rs.school/js-stage0/) (in progress)
 
-*****
+****
 ### Experience
 I have no experience in developing a real project, yet
 ****
