@@ -17,13 +17,3 @@ I can't say a lot of about myself. My core strengths are stress resistance and a
 * Git
 * Figma
 *******
-### Code example 
-```
-function cnslsum (x, a){
-    n = x + a;
-    console.log(n);
-}
-
-cnslsumm(5, 2)
-```
-****
