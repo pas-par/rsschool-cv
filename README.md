@@ -1,1 +1,1 @@
-https://pas-par.github.io/rsschool-cv/cv#contacts
+https://pas-par.github.io/rsschool-cv/cv
