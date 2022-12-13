@@ -1,3 +1,40 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100%;
+    border: 1px solid black;
+}
+.header{
+    background-color: rgb(240, 190, 125);
+}
+
+.navigation_list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navigation_item{
+    margin-left: 10px;
+}
+.navigation_item>a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;  
+}
+
+.navigation_item>a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 30%;
 }
