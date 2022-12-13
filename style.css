@@ -27,7 +27,8 @@ body{
     padding: 5px;
     text-decoration: none;
     color: black;
-    font-weight: 400;  
+    font-weight: 400; 
+    font-size: 22px; 
 }
 
 .navigation_item>a:hover{
@@ -39,6 +40,7 @@ body{
 .main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .title{
@@ -65,16 +67,27 @@ body{
 
 .article{
     width: calc(50% - 30px);
-    margin-right: 25px;
     border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 25px;
 }
 
 .article>h2{
-    color: brown;
+    color: rgb(114, 10, 98);
+    letter-spacing: 1px;
+
+}
+.article>ul{
+    line-height: 25px;
 }
 
+.article_link{
+    text-decoration: none;
+    color: rgb(7, 9, 111);
+    letter-spacing: 1px;
+}
+
+
+
 .article_english{
-    width: 100%;
     border: none;
-    margin: 0;
 }
