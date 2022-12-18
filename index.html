@@ -4,11 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body>
-    <header></header>
-    <body></body>
-    <footer></footer>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="navigation">
+                <ul class="navigation_list">
+                    <li class="navigation_item">
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a href="#summary">Summary</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a href="#courser">Courses</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a href="#code">Code</a>
+                    </li>
+                    <li class="navigation_item">
+                        <a href="#languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <article class="title">
+                <img src="images.jpg" alt="photo" class="title_photo">
+                <div class="title_name">
+                    <h1 class="name">Pavel Parubski</h1>
+                    <h3 class="title_profession">Front-end developer</h3>
+                </div>
+            </article>
+            <article class="article article_contacts" id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>GitHub: 
+                        <a class="article_link" href="https://github.com/pas-par">pas-par</a>
+                    </li>
+                    <li>Telegram: 
+                        <a class="article_link" href="https://t.me/pparubski">@pparubski</a>
+                    </li>
+                    <li>Email: pparubski@gmail.com</li>
+                </ul>
+            </article>
+            <article class="article article_summary" id="summary">
+                <h2>Summary</h2>
+                <p>I can't say a lot of about myself. My core strengths are stress resistance and a lot of free time, also i have goal, goal to learn front-end development.</p>
+            </article>
+            <article class="article article_skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>
+            </article>
+            <article class="article article_courses" id="courser">
+                <h2>Courses</h2>
+                <ul>
+                    <li >
+                        <a class="article_link" href="https://ru.hexlet.io/courses/js-basics">Основы JavaScript</a>
+                    </li>
+                    <li>
+                        <a class="article_link" href="https://code-basics.com/ru/languages/html">HTML для начинающих</a>
+                    </li>
+                    <li>
+                        <a class="article_link" href="https://code-basics.com/ru/languages/css">CSS для начинающих</a>
+                    </li>
+                    <li>
+                        <a class="article_link" href="https://rs.school/js-stage0/">rs.school - js-stage0</a>
+                    </li>
+                </ul>
+            </article>
+            <article class="article article_projects" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <a class="article_link" href="https://pas-par.github.io/rsschool-cv/">My - CV</a>
+                    </li>
+                </ul>
+            </article>
+            <article class="article article_code" id="code">
+                <h2>Code</h2>
+                <pre>
+                    <code>
+                        function cnslsum (x, a){
+                            n = x + a;
+                            console.log(n);
+                        }
+                            
+                        cnslsumm(5, 2)
+                    </code>
+                </pre>
+            </article>
+            <article class="article article_languages" id="languages">
+                <h2>Languages</h2>
+                <p>Russian - native speaker</p>
+                <p>English - B1 - B2 <a class="article_link" href="https://www.efset.org/cert/CUGfQ5">certificate</a> (But i don't have enough speaking practice)</p>
+            </article>
+        </main>
+        <footer class="footer">
+            <div class="github">
+                <a href="https://github.com/pas-par" class="github_link">
+                    <img src="assets/svg/icons8-github.svg" alt="git" class="github_logo">
+                </a>
+            </div>
+            <div class="year">
+                <p> &copy; 2022</p>
+            </div>
+            <div class="school">
+                <a href="https://rs.school/js-stage0/" class="course_link">
+                    <img src="assets/svg/rs_school_js.svg" alt="rsschool" class="school_logo">
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
