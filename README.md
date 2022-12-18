@@ -1,1 +1,1 @@
-# rsschool-cv
+https://pas-par.github.io/rsschool-cv/
