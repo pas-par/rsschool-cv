@@ -34,7 +34,7 @@ body{
 .navigation_item>a:hover{
     color: white;
     background-color: black;
-    border-radius: 30%;
+    transition: 0.3s;
 }
 
 .main{
@@ -86,8 +86,21 @@ body{
     letter-spacing: 1px;
 }
 
-
-
 .article_english{
     border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.school_logo{
+    width: 100px;
+}
+
+.github_logo{
+    width: 100px;
 }
